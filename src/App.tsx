@@ -109,7 +109,7 @@ function App() {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Success Stories</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -143,7 +143,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section className="py-16 bg-white">
@@ -166,6 +166,46 @@ function App() {
               {
                 question: 'Is AI automation suitable for small businesses?',
                 answer: 'Yes! Many AI solutions are scalable and can be tailored to suit businesses of any size.',
+              },
+              {
+                question: 'How does AI automation improve efficiency?',
+                answer: 'AI automation streamlines repetitive tasks, reduces errors, and allows employees to focus on higher-value activities, leading to improved overall efficiency.',
+              },
+              {
+                question: 'What are the cost savings associated with AI automation?',
+                answer: 'AI automation can significantly reduce operational costs by minimizing manual labor, reducing errors, and optimizing resource utilization.',
+              },
+              {
+                question: 'Can AI automation be integrated with existing systems?',
+                answer: 'Yes, AI automation solutions are designed to integrate seamlessly with existing systems, ensuring minimal disruption and maximum efficiency.',
+              },
+              {
+                question: 'What industries benefit the most from AI automation?',
+                answer: 'Industries such as manufacturing, healthcare, finance, and retail benefit greatly from AI automation due to the high volume of repetitive tasks and data processing involved.',
+              },
+              {
+                question: 'How secure is AI automation?',
+                answer: 'AI automation solutions prioritize security and data privacy, implementing robust measures to protect sensitive information and ensure compliance with regulations.',
+              },
+              {
+                question: 'What is the future of AI automation?',
+                answer: 'The future of AI automation is promising, with advancements in machine learning and artificial intelligence driving more sophisticated and efficient automation solutions.',
+              },
+              {
+                question: 'How can I measure the ROI of AI automation?',
+                answer: 'The ROI of AI automation can be measured by tracking key performance indicators such as cost savings, efficiency improvements, error reduction, and employee productivity.',
+              },
+              {
+                question: 'What are the initial steps to implement AI automation?',
+                answer: 'The initial steps to implement AI automation include identifying suitable processes, selecting the right AI tools, and developing a strategic implementation plan.',
+              },
+              {
+                question: 'How does AI automation impact customer experience?',
+                answer: 'AI automation enhances customer experience by providing faster response times, personalized interactions, and consistent service quality.',
+              },
+              {
+                question: 'Are there any risks associated with AI automation?',
+                answer: 'While AI automation offers numerous benefits, potential risks include data privacy concerns, implementation costs, and the need for ongoing maintenance and updates.',
               },
             ].map((faq) => (
               <div key={faq.question} className="bg-gray-50 p-6 rounded-2xl">
